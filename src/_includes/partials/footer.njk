@@ -1,38 +1,106 @@
 <!-- Footer -->
 <footer class="footer">
     <div class="container">
-        <div class="footer-grid">
+        <div class="footer-grid-large">
             <div class="footer-brand">
                 <a href="/" class="nav-logo">ERC<span>Defense</span></a>
                 <p>Expert IRS representation for Employee Retention Credit claims. Protecting businesses from IRS audits nationwide.</p>
+                <div class="footer-contact-info">
+                    <a href="tel:{{ site.phoneRaw }}">{{ site.phone }}</a>
+                    <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+                </div>
             </div>
 
-            <div class="footer-links-group">
-                <div class="footer-links">
-                    <h4>Company</h4>
-                    <ul>
-                        <li><a href="/about/">About Us</a></li>
-                        <li><a href="/services/">Services</a></li>
-                        <li><a href="/contact/">Contact</a></li>
-                    </ul>
-                </div>
+            <div class="footer-links">
+                <h4>IRS Notices</h4>
+                <ul>
+                    <li><a href="/irs-letter-6612/">Letter 6612 (Audit)</a></li>
+                    <li><a href="/irs-letter-105c-erc-denied/">Letter 105-C (Denial)</a></li>
+                    <li><a href="/irs-letter-106c-partial-denial/">Letter 106-C (Partial)</a></li>
+                    <li><a href="/irs-letter-6577c-erc-clawback/">Letter 6577-C (Clawback)</a></li>
+                    <li><a href="/irs-form-4564-erc/">Form 4564</a></li>
+                </ul>
+            </div>
 
-                <div class="footer-links">
-                    <h4>Contact</h4>
-                    <ul>
-                        <li><a href="tel:{{ site.phoneRaw }}">{{ site.phone }}</a></li>
-                        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-                    </ul>
-                </div>
+            <div class="footer-links">
+                <h4>Audit Defense</h4>
+                <ul>
+                    <li><a href="/erc-audit-attorney/">ERC Audit Attorney</a></li>
+                    <li><a href="/irs-audit-help/">IRS Audit Help</a></li>
+                    <li><a href="/erc-audit-penalties/">Audit Penalties</a></li>
+                    <li><a href="/erc-audit-statute-of-limitations/">Statute of Limitations</a></li>
+                    <li><a href="/how-to-appeal-erc-denial/">How to Appeal</a></li>
+                    <li><a href="/erc-claim-denied/">Claim Denied</a></li>
+                </ul>
+            </div>
 
-                <div class="footer-links">
-                    <h4>Legal</h4>
-                    <ul>
-                        <li><a href="/privacy/">Privacy Policy</a></li>
-                        <li><a href="/terms/">Terms of Service</a></li>
-                        <li><a href="/disclaimer/">Disclaimer</a></li>
-                    </ul>
-                </div>
+            <div class="footer-links">
+                <h4>Eligibility</h4>
+                <ul>
+                    <li><a href="/gross-receipts-test/">Gross Receipts Test</a></li>
+                    <li><a href="/government-order-test/">Government Order Test</a></li>
+                    <li><a href="/essential-business-erc/">Essential Business</a></li>
+                    <li><a href="/recovery-startup-business/">Recovery Startup</a></li>
+                    <li><a href="/ppp-erc-coordination/">PPP Coordination</a></li>
+                    <li><a href="/erc-2020-vs-2021-rules/">2020 vs 2021 Rules</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>By Industry</h4>
+                <ul>
+                    <li><a href="/erc-for-restaurants/">Restaurants</a></li>
+                    <li><a href="/erc-for-medical-practices/">Medical Practices</a></li>
+                    <li><a href="/erc-for-construction/">Construction</a></li>
+                    <li><a href="/erc-hotels-hospitality/">Hotels & Hospitality</a></li>
+                    <li><a href="/erc-retail-stores/">Retail Stores</a></li>
+                    <li><a href="/erc-churches-nonprofits/">Churches & Nonprofits</a></li>
+                    <li><a href="/erc-gyms-fitness-centers/">Gyms & Fitness</a></li>
+                    <li><a href="/erc-manufacturing/">Manufacturing</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>By State</h4>
+                <ul>
+                    <li><a href="/erc-california/">California</a></li>
+                    <li><a href="/erc-texas/">Texas</a></li>
+                    <li><a href="/erc-florida/">Florida</a></li>
+                    <li><a href="/erc-new-york/">New York</a></li>
+                    <li><a href="/erc-illinois/">Illinois</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Problems & Issues</h4>
+                <ul>
+                    <li><a href="/erc-clawback/">ERC Clawback</a></li>
+                    <li><a href="/erc-refund-delayed/">Refund Delayed</a></li>
+                    <li><a href="/check-erc-refund-status/">Check Refund Status</a></li>
+                    <li><a href="/erc-company-out-of-business/">Preparer Gone</a></li>
+                    <li><a href="/erc-mills-warning-signs/">ERC Mills Warning</a></li>
+                    <li><a href="/erc-promoter-scam-victim/">Scam Victim Help</a></li>
+                    <li><a href="/already-received-erc-worried/">Already Got ERC?</a></li>
+                    <li><a href="/withdraw-erc-claim/">Withdraw Claim</a></li>
+                    <li><a href="/erc-voluntary-disclosure/">Voluntary Disclosure</a></li>
+                    <li><a href="/erc-fraud-penalties/">Fraud Penalties</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="/about/">About Us</a></li>
+                    <li><a href="/services/">Services</a></li>
+                    <li><a href="/risks/">The Risks</a></li>
+                    <li><a href="/contact/">Contact</a></li>
+                </ul>
+                <h4 style="margin-top: 1.5rem;">Legal</h4>
+                <ul>
+                    <li><a href="/privacy/">Privacy Policy</a></li>
+                    <li><a href="/terms/">Terms of Service</a></li>
+                    <li><a href="/disclaimer/">Disclaimer</a></li>
+                </ul>
             </div>
         </div>
 
@@ -51,9 +119,10 @@
 <!-- Form Handler Script -->
 <script src="/js/form-handler.js"></script>
 
-<!-- Mobile Menu Script -->
+<!-- Mobile Menu & Dropdown Script -->
 <script>
     (function() {
+        // Mobile menu toggle
         const menuBtn = document.querySelector('.mobile-menu-btn');
         const mobileMenu = document.querySelector('.mobile-menu');
         const body = document.body;
@@ -66,7 +135,6 @@
                 menuBtn.setAttribute('aria-expanded', isOpen);
             });
 
-            // Close menu when clicking a link
             mobileMenu.querySelectorAll('a').forEach(link => {
                 link.addEventListener('click', () => {
                     menuBtn.classList.remove('active');
@@ -76,7 +144,6 @@
                 });
             });
 
-            // Close menu on escape key
             document.addEventListener('keydown', (e) => {
                 if (e.key === 'Escape' && mobileMenu.classList.contains('active')) {
                     menuBtn.classList.remove('active');
@@ -86,5 +153,31 @@
                 }
             });
         }
+
+        // Mobile accordion
+        document.querySelectorAll('.mobile-accordion-trigger').forEach(trigger => {
+            trigger.addEventListener('click', function() {
+                const accordion = this.parentElement;
+                accordion.classList.toggle('active');
+            });
+        });
+
+        // Desktop dropdowns - click to toggle on touch devices
+        document.querySelectorAll('.nav-dropdown-trigger').forEach(trigger => {
+            trigger.addEventListener('click', function(e) {
+                if (window.innerWidth <= 1024) {
+                    e.preventDefault();
+                    const dropdown = this.parentElement;
+                    dropdown.classList.toggle('active');
+                }
+            });
+        });
+
+        // Close dropdowns when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('.nav-dropdown')) {
+                document.querySelectorAll('.nav-dropdown').forEach(d => d.classList.remove('active'));
+            }
+        });
     })();
 </script>

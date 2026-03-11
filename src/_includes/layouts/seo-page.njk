@@ -1,0 +1,100 @@
+---
+layout: layouts/base.njk
+---
+<!-- Hero Section -->
+<section class="hero hero-sm">
+    <div class="container">
+        <div class="hero-content-center">
+            {% if tag %}
+            <span class="section-tag section-tag-danger">{{ tag }}</span>
+            {% endif %}
+            <h1 class="hero-title">{{ title }}</h1>
+            <p class="hero-subtitle">{{ subtitle | default(description) }}</p>
+            <div class="hero-cta-group">
+                <a href="/contact/" class="btn btn-primary btn-lg">Get Free Case Review</a>
+                <a href="tel:{{ site.phoneRaw }}" class="btn btn-outline btn-lg">Call {{ site.phone }}</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Main Content -->
+<section class="section">
+    <div class="container-sm">
+        <div class="content-prose">
+            {{ content | safe }}
+        </div>
+    </div>
+</section>
+
+{% if showForm !== false %}
+<!-- CTA Section -->
+<section class="section section-gray">
+    <div class="container">
+        <div class="hero-grid">
+            <div>
+                <h2 class="section-title">Get Expert Help Today</h2>
+                <p class="section-subtitle">Don't navigate IRS issues alone. Our experienced team is ready to defend your ERC claim.</p>
+                <div class="hero-trust-badges" style="margin-top: 2rem;">
+                    <span>&#10003; Experienced IRS Representation</span>
+                    <span>&#10003; Former IRS Staff</span>
+                    <span>&#10003; 100% Confidential</span>
+                </div>
+            </div>
+
+            <!-- Lead Form -->
+            <div id="form" class="lead-form-card">
+                <span class="lead-form-badge">Free Review</span>
+                <h3 style="font-size: 1.5rem; font-weight: 800; margin-bottom: 0.5rem;">Get Your Risk Assessment</h3>
+                <p style="color: var(--text-muted); font-size: 0.875rem; margin-bottom: 2rem;">Confidential analysis by experienced tax professionals.</p>
+
+                <form data-lead-form>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+                        <input type="text" name="firstName" placeholder="First Name" required class="form-input">
+                        <input type="text" name="lastName" placeholder="Last Name" required class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Business Email" required class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="phone" placeholder="Phone Number" required class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <select name="situation" required class="form-input form-select">
+                            <option value="">What's your situation?</option>
+                            <option value="audit">Received IRS Audit Notice</option>
+                            <option value="letter">Received IRS Letter/Request</option>
+                            <option value="denial">ERC Claim Denied</option>
+                            <option value="pending">Claim Still Pending</option>
+                            <option value="proactive">Proactive Protection</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="form-submit">Start My Defense Review &rarr;</button>
+                </form>
+                <p style="text-align: center; font-size: 0.75rem; color: var(--text-light); margin-top: 1rem;">100% confidential. No obligation.</p>
+            </div>
+        </div>
+    </div>
+</section>
+{% endif %}
+
+<!-- FAQ Section (if defined) -->
+{% if faqs %}
+<section class="section">
+    <div class="container-sm">
+        <div class="text-center" style="margin-bottom: 4rem;">
+            <span class="section-tag">FAQ</span>
+            <h2 class="section-title">Frequently Asked Questions</h2>
+        </div>
+
+        <div>
+            {% for faq in faqs %}
+            <details class="faq-item" {% if loop.first %}open{% endif %}>
+                <summary>{{ faq.question }}<span>&#8595;</span></summary>
+                <p class="faq-answer">{{ faq.answer }}</p>
+            </details>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endif %}

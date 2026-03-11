@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} | {{ site.name }}</title>
+    <meta name="description" content="{{ description | default(site.description) }}">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="{{ title }} | {{ site.name }}">
+    <meta property="og:description" content="{{ description | default(site.description) }}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:image" content="{{ site.url }}/assets/og-image.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="{{ title }} - {{ site.name }}">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ title }} | {{ site.name }}">
+    <meta name="twitter:description" content="{{ description | default(site.description) }}">
+    <meta name="twitter:image" content="{{ site.url }}/assets/twitter-image.png">
+    <meta name="twitter:image:alt" content="{{ title }} - {{ site.name }}">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+    <link rel="icon" href="/assets/favicon.ico" sizes="any">
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/android-chrome-192x192.png">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Google Analytics (replace G-XXXXXXX with your ID) -->
+    <!--
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXX');
+    </script>
+    -->
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "{{ site.name }}",
+        "description": "{{ site.description }}",
+        "url": "{{ site.url }}",
+        "telephone": "+1-443-545-3023",
+        "email": "{{ site.email }}",
+        "areaServed": "US",
+        "serviceType": ["Tax Representation", "IRS Audit Defense", "ERC Claims"],
+        "priceRange": "$$"
+    }
+    </script>
+
+    {% block head %}{% endblock %}
+</head>
+<body>
+    {% include "partials/nav.njk" %}
+
+    <main id="main">
+        {{ content | safe }}
+    </main>
+
+    {% include "partials/footer.njk" %}
+</body>
+</html>

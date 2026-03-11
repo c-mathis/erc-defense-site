@@ -1,0 +1,90 @@
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="/" class="nav-logo">ERC<span>Defense</span></a>
+                <p>Expert IRS representation for Employee Retention Credit claims. Protecting businesses from IRS audits nationwide.</p>
+            </div>
+
+            <div class="footer-links-group">
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="/about/">About Us</a></li>
+                        <li><a href="/services/">Services</a></li>
+                        <li><a href="/contact/">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="tel:{{ site.phoneRaw }}">{{ site.phone }}</a></li>
+                        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="/privacy/">Privacy Policy</a></li>
+                        <li><a href="/terms/">Terms of Service</a></li>
+                        <li><a href="/disclaimer/">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-disclaimer">
+            <h5>Disclaimer</h5>
+            <p>This website is for informational purposes only and does not constitute legal or tax advice. Contacting us does not create a professional relationship. Prior results do not guarantee similar outcomes. ERC Defense provides representation services for IRS matters related to Employee Retention Credit claims.</p>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; {{ "" | year }} ERC Defense. All rights reserved.</p>
+            <p>Professional IRS Representation</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Form Handler Script -->
+<script src="/js/form-handler.js"></script>
+
+<!-- Mobile Menu Script -->
+<script>
+    (function() {
+        const menuBtn = document.querySelector('.mobile-menu-btn');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const body = document.body;
+
+        if (menuBtn && mobileMenu) {
+            menuBtn.addEventListener('click', function() {
+                const isOpen = menuBtn.classList.toggle('active');
+                mobileMenu.classList.toggle('active');
+                body.style.overflow = isOpen ? 'hidden' : '';
+                menuBtn.setAttribute('aria-expanded', isOpen);
+            });
+
+            // Close menu when clicking a link
+            mobileMenu.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    menuBtn.classList.remove('active');
+                    mobileMenu.classList.remove('active');
+                    body.style.overflow = '';
+                    menuBtn.setAttribute('aria-expanded', 'false');
+                });
+            });
+
+            // Close menu on escape key
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && mobileMenu.classList.contains('active')) {
+                    menuBtn.classList.remove('active');
+                    mobileMenu.classList.remove('active');
+                    body.style.overflow = '';
+                    menuBtn.setAttribute('aria-expanded', 'false');
+                }
+            });
+        }
+    })();
+</script>

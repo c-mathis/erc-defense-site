@@ -1,0 +1,16 @@
+{
+  "name": "erc-defense-site",
+  "version": "1.0.0",
+  "description": "ERC Defense - Expert IRS Representation for Employee Retention Credit Claims",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy",
+    "clean": "rm -rf _site"
+  },
+  "keywords": ["erc", "tax", "irs", "audit", "defense"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}

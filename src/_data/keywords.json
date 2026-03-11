@@ -1,0 +1,441 @@
+{
+  "meta": {
+    "generated": "2026-03-11",
+    "source": "DataforSEO API + Web Research",
+    "location": "US"
+  },
+  "keywords": {
+    "irs-letter-6612": {
+      "keyword": "IRS Letter 6612",
+      "volume": 1000,
+      "difficulty": "LOW",
+      "cpc": 28.5,
+      "intent": "problem-aware",
+      "priority": 1,
+      "notes": "84,000+ letters sent. Initial audit notification with Form 4564."
+    },
+    "letter-105c": {
+      "keyword": "Letter 105-C ERC",
+      "volume": 500,
+      "difficulty": "LOW",
+      "cpc": 32,
+      "intent": "problem-aware",
+      "priority": 1,
+      "notes": "Full disallowance notice. 2-year deadline to file suit."
+    },
+    "letter-6577c": {
+      "keyword": "Letter 6577-C ERC",
+      "volume": 400,
+      "difficulty": "LOW",
+      "cpc": 35,
+      "intent": "problem-aware",
+      "priority": 1,
+      "notes": "Clawback/recapture notice. 30,000+ sent. 21-day deadline."
+    },
+    "erc-audit": {
+      "keyword": "erc audit",
+      "volume": 110,
+      "difficulty": "LOW",
+      "cpc": 24.99,
+      "intent": "transactional",
+      "priority": 1,
+      "notes": "Direct service match - main funnel target."
+    },
+    "erc-refund-delayed": {
+      "keyword": "why is my ERC refund taking so long",
+      "volume": 720,
+      "difficulty": "MEDIUM",
+      "cpc": 16.37,
+      "intent": "problem-aware",
+      "priority": 1,
+      "notes": "597K+ unprocessed claims. High search volume."
+    },
+    "erc-claim-denied": {
+      "keyword": "ERC claim denied",
+      "volume": 200,
+      "difficulty": "LOW",
+      "cpc": 28.43,
+      "intent": "problem-aware",
+      "priority": 1,
+      "notes": "High intent - people just received denial."
+    },
+    "tax-audit-defense": {
+      "keyword": "tax audit defense",
+      "volume": 260,
+      "difficulty": "LOW",
+      "cpc": 16.02,
+      "intent": "transactional",
+      "priority": 2,
+      "notes": "Broader audit defense keyword."
+    },
+    "irs-audit-help": {
+      "keyword": "IRS audit help",
+      "volume": 170,
+      "difficulty": "MEDIUM",
+      "cpc": 57.67,
+      "intent": "transactional",
+      "priority": 1,
+      "notes": "Highest CPC = highest commercial intent."
+    },
+    "erc-audit-statute-of-limitations": {
+      "keyword": "erc audit statute of limitations",
+      "volume": 40,
+      "difficulty": "LOW",
+      "cpc": 19.97,
+      "intent": "informational",
+      "priority": 2,
+      "notes": "High-intent legal question. 5-6 year window."
+    },
+    "erc-appeal-process": {
+      "keyword": "how to appeal ERC denial",
+      "volume": 150,
+      "difficulty": "LOW",
+      "cpc": 26,
+      "intent": "solution-seeking",
+      "priority": 1,
+      "notes": "30-day deadline to appeal. High urgency."
+    },
+    "erc-audit-penalties": {
+      "keyword": "ERC audit penalties",
+      "volume": 90,
+      "difficulty": "LOW",
+      "cpc": 22,
+      "intent": "informational",
+      "priority": 2,
+      "notes": "20% accuracy, 75% fraud penalties."
+    },
+    "form-4564-erc": {
+      "keyword": "Form 4564 ERC",
+      "volume": 80,
+      "difficulty": "LOW",
+      "cpc": 24,
+      "intent": "problem-aware",
+      "priority": 2,
+      "notes": "Information Document Request. 30-day deadline."
+    },
+    "erc-mills": {
+      "keyword": "ERC mills",
+      "volume": 200,
+      "difficulty": "LOW",
+      "cpc": 18,
+      "intent": "problem-aware",
+      "priority": 2,
+      "notes": "Scam awareness. Many filers gone."
+    },
+    "erc-withdrawal": {
+      "keyword": "withdraw ERC claim",
+      "volume": 120,
+      "difficulty": "LOW",
+      "cpc": 20,
+      "intent": "solution-seeking",
+      "priority": 2,
+      "notes": "Still available for unprocessed claims."
+    },
+    "letter-106c": {
+      "keyword": "Letter 106-C ERC",
+      "volume": 150,
+      "difficulty": "LOW",
+      "cpc": 30,
+      "intent": "problem-aware",
+      "priority": 2,
+      "notes": "Partial disallowance notice."
+    },
+    "erc-voluntary-disclosure": {
+      "keyword": "ERC voluntary disclosure program",
+      "volume": 100,
+      "difficulty": "LOW",
+      "cpc": 25,
+      "intent": "solution-seeking",
+      "priority": 3,
+      "notes": "Programs closed Nov 2024. Historical reference."
+    },
+    "erc-refund-status": {
+      "keyword": "how to check ERC refund status",
+      "volume": 500,
+      "difficulty": "LOW",
+      "cpc": 12,
+      "intent": "informational",
+      "priority": 2,
+      "notes": "No online tool - must call IRS."
+    },
+    "erc-restaurants": {
+      "keyword": "ERC for restaurants",
+      "volume": 200,
+      "difficulty": "LOW",
+      "cpc": 15,
+      "intent": "informational",
+      "priority": 3,
+      "notes": "Top industry. Capacity restrictions qualified most."
+    },
+    "erc-healthcare": {
+      "keyword": "ERC for medical practices",
+      "volume": 150,
+      "difficulty": "LOW",
+      "cpc": 18,
+      "intent": "informational",
+      "priority": 3,
+      "notes": "Elective surgery shutdowns. Up to $1.65M for 50 employees."
+    },
+    "erc-construction": {
+      "keyword": "ERC for construction",
+      "volume": 120,
+      "difficulty": "LOW",
+      "cpc": 14,
+      "intent": "informational",
+      "priority": 3,
+      "notes": "Supply chain issues. IRS skeptical - needs documentation."
+    },
+    "erc-fraud-penalties": {
+      "keyword": "ERC fraud penalties",
+      "volume": 80,
+      "difficulty": "LOW",
+      "cpc": 28,
+      "intent": "fear",
+      "priority": 2,
+      "notes": "Up to 75% penalty, criminal prosecution risk."
+    },
+    "erc-preparer-gone": {
+      "keyword": "ERC company went out of business",
+      "volume": 150,
+      "difficulty": "LOW",
+      "cpc": 22,
+      "intent": "problem-aware",
+      "priority": 1,
+      "notes": "Many mills closed. High pain point."
+    },
+    "erc-audit-attorney": {
+      "keyword": "ERC audit attorney",
+      "volume": 90,
+      "difficulty": "LOW",
+      "cpc": 45,
+      "intent": "transactional",
+      "priority": 1,
+      "notes": "Highest commercial intent. Service page."
+    },
+    "erc-clawback": {
+      "keyword": "IRS ERC clawback",
+      "volume": 180,
+      "difficulty": "LOW",
+      "cpc": 30,
+      "intent": "problem-aware",
+      "priority": 1,
+      "notes": "IRS recapturing already-paid refunds. $1B+ targeted."
+    },
+    "obbba-erc": {
+      "keyword": "One Big Beautiful Bill Act ERC",
+      "volume": 60,
+      "difficulty": "LOW",
+      "cpc": 15,
+      "intent": "informational",
+      "priority": 3,
+      "notes": "2025 legislation. Claims after Jan 31, 2024 disallowed."
+    },
+    "erc-hotels-hospitality": {
+      "keyword": "ERC for hotels hospitality",
+      "volume": 60,
+      "difficulty": "LOW",
+      "cpc": 18,
+      "intent": "informational",
+      "priority": 3,
+      "notes": "Industry-specific eligibility page for hotels."
+    },
+    "erc-gyms-fitness-centers": {
+      "keyword": "ERC for gyms fitness centers",
+      "volume": 50,
+      "difficulty": "LOW",
+      "cpc": 16,
+      "intent": "informational",
+      "priority": 3,
+      "notes": "Industry-specific eligibility page for fitness."
+    },
+    "erc-retail-stores": {
+      "keyword": "ERC for retail stores",
+      "volume": 70,
+      "difficulty": "LOW",
+      "cpc": 15,
+      "intent": "informational",
+      "priority": 3,
+      "notes": "Industry-specific eligibility page for retail."
+    },
+    "erc-churches-nonprofits": {
+      "keyword": "ERC for churches nonprofits",
+      "volume": 90,
+      "difficulty": "LOW",
+      "cpc": 14,
+      "intent": "informational",
+      "priority": 3,
+      "notes": "Industry-specific eligibility page for nonprofits."
+    },
+    "erc-manufacturing": {
+      "keyword": "ERC for manufacturing",
+      "volume": 40,
+      "difficulty": "LOW",
+      "cpc": 17,
+      "intent": "informational",
+      "priority": 3,
+      "notes": "Industry-specific eligibility page for manufacturing."
+    },
+    "erc-auto-dealers": {
+      "keyword": "ERC for auto dealers",
+      "volume": 30,
+      "difficulty": "LOW",
+      "cpc": 20,
+      "intent": "informational",
+      "priority": 3,
+      "notes": "Industry-specific eligibility page for auto dealers."
+    },
+    "erc-salons-spas": {
+      "keyword": "ERC for salons spas",
+      "volume": 45,
+      "difficulty": "LOW",
+      "cpc": 15,
+      "intent": "informational",
+      "priority": 3,
+      "notes": "Industry-specific eligibility page for salons and spas."
+    },
+    "erc-daycare-childcare": {
+      "keyword": "ERC for daycare childcare",
+      "volume": 55,
+      "difficulty": "LOW",
+      "cpc": 16,
+      "intent": "informational",
+      "priority": 3,
+      "notes": "Industry-specific eligibility page for childcare."
+    },
+    "gross-receipts-test": {
+      "keyword": "ERC gross receipts test",
+      "volume": 80,
+      "difficulty": "MEDIUM",
+      "cpc": 22,
+      "intent": "informational",
+      "priority": 3,
+      "notes": "50%/20% decline requirements explained."
+    },
+    "government-order-test": {
+      "keyword": "ERC government order test",
+      "volume": 60,
+      "difficulty": "MEDIUM",
+      "cpc": 20,
+      "intent": "informational",
+      "priority": 3,
+      "notes": "Suspension of operations eligibility test."
+    },
+    "essential-business-erc": {
+      "keyword": "can essential businesses claim ERC",
+      "volume": 90,
+      "difficulty": "LOW",
+      "cpc": 18,
+      "intent": "informational",
+      "priority": 3,
+      "notes": "Essential business eligibility questions."
+    },
+    "recovery-startup-business": {
+      "keyword": "recovery startup business ERC",
+      "volume": 70,
+      "difficulty": "LOW",
+      "cpc": 19,
+      "intent": "informational",
+      "priority": 3,
+      "notes": "RSB special qualification rules."
+    },
+    "ppp-erc-coordination": {
+      "keyword": "PPP ERC coordination",
+      "volume": 120,
+      "difficulty": "MEDIUM",
+      "cpc": 24,
+      "intent": "informational",
+      "priority": 3,
+      "notes": "Wage allocation rules between PPP and ERC."
+    },
+    "full-vs-partial-suspension": {
+      "keyword": "ERC full partial suspension",
+      "volume": 40,
+      "difficulty": "LOW",
+      "cpc": 18,
+      "intent": "informational",
+      "priority": 3,
+      "notes": "10% nominal threshold explained."
+    },
+    "erc-california": {
+      "keyword": "ERC California eligibility",
+      "volume": 110,
+      "difficulty": "MEDIUM",
+      "cpc": 25,
+      "intent": "informational",
+      "priority": 3,
+      "notes": "California COVID orders and ERC."
+    },
+    "erc-texas": {
+      "keyword": "ERC Texas eligibility",
+      "volume": 90,
+      "difficulty": "MEDIUM",
+      "cpc": 23,
+      "intent": "informational",
+      "priority": 3,
+      "notes": "Texas executive orders and ERC."
+    },
+    "erc-florida": {
+      "keyword": "ERC Florida eligibility",
+      "volume": 85,
+      "difficulty": "MEDIUM",
+      "cpc": 22,
+      "intent": "informational",
+      "priority": 3,
+      "notes": "Florida COVID orders and ERC."
+    },
+    "erc-new-york": {
+      "keyword": "ERC New York eligibility",
+      "volume": 100,
+      "difficulty": "MEDIUM",
+      "cpc": 26,
+      "intent": "informational",
+      "priority": 3,
+      "notes": "New York PAUSE orders and ERC."
+    },
+    "erc-illinois": {
+      "keyword": "ERC Illinois eligibility",
+      "volume": 65,
+      "difficulty": "MEDIUM",
+      "cpc": 21,
+      "intent": "informational",
+      "priority": 3,
+      "notes": "Illinois COVID orders and ERC."
+    },
+    "already-received-erc-worried": {
+      "keyword": "already received ERC worried",
+      "volume": 150,
+      "difficulty": "LOW",
+      "cpc": 28,
+      "intent": "problem-aware",
+      "priority": 3,
+      "notes": "Self-assessment for worried ERC recipients."
+    },
+    "erc-promoter-scam-victim": {
+      "keyword": "ERC mill scam victim",
+      "volume": 80,
+      "difficulty": "LOW",
+      "cpc": 30,
+      "intent": "problem-aware",
+      "priority": 3,
+      "notes": "Help for ERC promoter victims."
+    },
+    "erc-2020-vs-2021-rules": {
+      "keyword": "ERC 2020 vs 2021 rules",
+      "volume": 60,
+      "difficulty": "LOW",
+      "cpc": 16,
+      "intent": "informational",
+      "priority": 3,
+      "notes": "Key differences between years."
+    },
+    "infrastructure-act-erc-changes": {
+      "keyword": "infrastructure act ERC changes",
+      "volume": 40,
+      "difficulty": "LOW",
+      "cpc": 14,
+      "intent": "informational",
+      "priority": 3,
+      "notes": "How IIJA ended ERC early."
+    }
+  }
+}
